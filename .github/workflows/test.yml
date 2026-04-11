@@ -1,0 +1,21 @@
+name: Plugin Validator
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: 
+    - 'Plugins/**'
+  
+jobs:
+  xml-check:
+    if: github.repository == 'StarCpt/PluginHub-SE2'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Plugin Hub
+      uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - name: Validate
+      run: 'python test.py Plugins/'
