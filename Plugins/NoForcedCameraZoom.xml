@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>DA18B71F-9B46-42E9-BDCD-841CCC571E2A</Id>
+    <RepoId>WesternSpace/SE2-NoForcedCameraZoom</RepoId>
+    <FriendlyName>No Forced Camera Zoom</FriendlyName>
+    <Author>WesternSpace</Author>
+    <Tooltip>Disables the forced camera zoom when the third person camera touches an obstruction.</Tooltip>
+    <Commit>8a091571722f22887b7bc10c6ea15ecc1141bc49</Commit>
+</PluginData>
