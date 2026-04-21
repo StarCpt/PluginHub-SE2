@@ -24,8 +24,9 @@
     <Directory>Directory 2</Directory>
   </SourceDirectories> -->
   
-  <!-- Optional tag that specifies whether the plugin is hidden. Hidden plugins only appear when they are enabled or searched for in the search box.
-  <Hidden>true</Hidden> -->
+  <!-- Optional tag that specifies whether the plugin is hidden. Hidden plugins cannot be selected from the menu and are intended to be used as dependencies. -->
+  <!-- The template has this set to true to hide it from the list. Set this to false to show your plugin in the list. -->
+  <Hidden>true</Hidden>
 
   <!-- Optional list of alternate versions of the plugin
   <AlternateVersions>
