@@ -5,9 +5,16 @@
     <FriendlyName>Head Tracking for SE2</FriendlyName>
     <Author>kickformoney</Author>
     <Tooltip>Adds head tracking using the FreeTrack protocol</Tooltip>
-	<Description>Adds OpenTrack head tracking support for Space Engineers 2 cockpits/seats.  Compatible with any head tracking software using the "FreeTrack 2.0 Enhanced" protocol.  Sensitivity and keybinds are configurable via the plugin settings.</Description>
+	<Description>Adds head tracking support to Space Engineers 2
+	
+	Compatible with any head tracking software using the "FreeTrack 2.0 Enhanced" protocol
+	
+	Sensitivity and keybinds are configurable via the plugin settings
+	
+	See the following link for more information/configuration options: https://github.com/kickformoney/HeadTrackingSE2	
+	</Description>
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
-    <Commit>81320e018aa17e98c18c03868563888eff4b5327</Commit>
+    <Commit>7a69271cfc997ad18ef6a5ac34b47ebe546b6123</Commit>
 </PluginData>
