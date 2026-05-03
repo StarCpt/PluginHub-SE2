@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>58E57089-6B0A-4456-A788-357EF93E2673</Id>
+    <RepoId>kickformoney/CustomHighlightSE2</RepoId>
+    <FriendlyName>Custom Highlight</FriendlyName>
+    <Author>kickformoney</Author>
+    <Tooltip>Allows you to change the interactive object hover highlight color and opacity</Tooltip>
+    <Description>Allows for on-the-fly adjustment of the highlight color and/or opacity of the pulse when hovering over an interactive object
+	
+	Also allows you to completely disable the highlight</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Commit>7b05a20565696a9503f5b7142df416d36a70632b</Commit>
+</PluginData>
