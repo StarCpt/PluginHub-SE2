@@ -11,10 +11,10 @@
 	
 	Sensitivity and keybinds are configurable via the plugin settings
 	
-	See the following link for more information/configuration options: https://github.com/kickformoney/HeadTrackingSE2	
+	Check the plugin Settings or click More Info below for configuration instructions
 	</Description>
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
-    <Commit>7a69271cfc997ad18ef6a5ac34b47ebe546b6123</Commit>
+    <Commit>1da81557821ae0201d060401ebf807396c5384af</Commit>
 </PluginData>
