@@ -2,7 +2,7 @@
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
     <Id>A8A0D5CC-820D-432D-996C-B9E5AECDD5AE</Id>
     <RepoId>kickformoney/HeadTrackingSE2</RepoId>
-    <FriendlyName>Head Tracking for SE2</FriendlyName>
+    <FriendlyName>Head Tracking</FriendlyName>
     <Author>kickformoney</Author>
     <Tooltip>Adds head tracking using the FreeTrack protocol</Tooltip>
 	<Description>Adds head tracking support to Space Engineers 2
@@ -16,5 +16,5 @@
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
-    <Commit>1da81557821ae0201d060401ebf807396c5384af</Commit>
+    <Commit>6f6aabe635685460605a97f61bf38ac6956c5172</Commit>
 </PluginData>
