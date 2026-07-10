@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>109CBF17-F8C8-49C6-AC39-8EA58910A631</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>lolifamily/HdrRender2</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>HDR Render 2</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>lolifamily</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>True HDR output: fp16 scRGB swapchain, BT.2390 tonemapping, emissive particle boost, EXR screenshots</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Adds a true HDR output path to Space Engineers 2 (DX12).
+The swapchain becomes flip-model R16G16B16A16_Float with scRGB color space.
+The engine's SDR tonemapping is replaced by a BT.2390 EETF curve (PQ space) that preserves highlight detail beyond SDR white, with configurable peak, paper-white, source peak, and black lift.
+The UI is drawn on a separate layer and composited at your paper-white brightness, so SDR menus and HUD read correctly on an HDR display.
+Emissive GPU particles (thrusters, lasers, muzzle flashes, explosions) can be boosted by a configurable factor with live preview; diffuse smoke and dust are untouched.
+Screenshots are also exported as OpenEXR (HDR) beside the game's normal SDR image.
+Luminance only, Rec.709 primaries; no wide-gamut remap.
+Auto-disables itself if it crashes during init, with a config flag to re-enable.
+Requires Windows HDR enabled and a supported display; can be force-enabled on SDR displays.</Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- Shader assets copied onto disk and exposed to the plugin via LoadAssets(assetFolder). -->
+    <AssetFolder>ClientPlugin/Assets/</AssetFolder>
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>ccef32e5468d5bf6708d2e40e8e5e4b99d8c2fe8</Commit>
+</PluginData>
