@@ -8,5 +8,5 @@
     <SourceDirectories>
         <Directory>SE2DisableAlphaBanner</Directory>
     </SourceDirectories>
-    <Commit>TODO Git commit hash</Commit>
+    <Commit>0b1da0473e935d0e298df0edf1e3cbaae098ddcb</Commit>
 </PluginData>
