@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
     <Id>293a8d89-e1b2-4161-95d4-e02961dc4f6f</Id>
-    <RepoId>WesternSpace/DisablePCULimit</RepoId>
+    <RepoId>WesternSpace/SE2DisablePCULimit</RepoId>
     <FriendlyName>Disable PCU Limit</FriendlyName>
     <Author>WesternSpace</Author>
     <Tooltip>Plugin for Space Engineers 2 that disables the PCU limits. Also disable PCU change notifications.</Tooltip>
