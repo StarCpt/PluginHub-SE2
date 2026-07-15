@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>3CBEFD83-65E4-49ED-84BC-56F0297AD7DD</Id>
+    <RepoId>WesternSpace/SE2FpsCounter</RepoId>
+    <FriendlyName>Fps Counter</FriendlyName>
+    <Author>WesternSpace</Author>
+    <Tooltip>TODO Short description</Tooltip>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Commit>TODO Git commit hash</Commit>
+</PluginData>

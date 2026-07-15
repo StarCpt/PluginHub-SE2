@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>65face17-841e-4a3a-a0c5-d6feea21c7cd</Id>
+    <RepoId>WesternSpace/SE2DisableAlphaBanner</RepoId>
+    <FriendlyName>Disable Alpha Banner</FriendlyName>
+    <Author>WesternSpace</Author>
+    <Tooltip>Disables the alpha banner in Space Engineers 2.</Tooltip>
+    <SourceDirectories>
+        <Directory>SE2DisableAlphaBanner</Directory>
+    </SourceDirectories>
+    <Commit>TODO Git commit hash</Commit>
+</PluginData>
