@@ -6,7 +6,7 @@
     <Author>WesternSpace</Author>
     <Tooltip>Plugin for Space Engineers 2 that disables the PCU limits. Also disable PCU change notifications.</Tooltip>
     <SourceDirectories>
-        <Directory>ClientPlugin</Directory>
+        <Directory>SE2DisablePCULimit</Directory>
     </SourceDirectories>
     <Commit>9a3703450211d5a1f29568c5daeca77af768b8c5</Commit>
 </PluginData>
