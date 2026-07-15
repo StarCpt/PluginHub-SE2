@@ -8,5 +8,5 @@
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
-    <Commit>TODO Git commit hash</Commit>
+    <Commit>9a3703450211d5a1f29568c5daeca77af768b8c5</Commit>
 </PluginData>
