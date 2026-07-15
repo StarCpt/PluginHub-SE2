@@ -4,9 +4,9 @@
     <RepoId>WesternSpace/SE2FpsCounter</RepoId>
     <FriendlyName>Fps Counter</FriendlyName>
     <Author>WesternSpace</Author>
-    <Tooltip>TODO Short description</Tooltip>
+    <Tooltip>FPS Counter for Space Engineers 2.</Tooltip>
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
-    <Commit>TODO Git commit hash</Commit>
+    <Commit>eaf1b79aeff0e403f7a7f3029bf484158e70bb1d</Commit>
 </PluginData>
