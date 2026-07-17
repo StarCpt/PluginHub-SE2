@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>acf709ff-72b1-407b-b8c8-23af671368fc</Id>
+    <RepoId>WesternSpace/SE2NoAudioMuteWhenInactive</RepoId>
+    <FriendlyName>No Audio Mute When Inactive</FriendlyName>
+    <Author>WesternSpace</Author>
+    <Tooltip>Disables audio being muted when the game window is inactive (unfocused).</Tooltip>
+    <SourceDirectories>
+        <Directory>SE2NoAudioMuteWhenInactive</Directory>
+    </SourceDirectories>
+    <Commit>TODO Git commit hash</Commit>
+</PluginData>
