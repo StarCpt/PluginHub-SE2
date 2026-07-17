@@ -8,5 +8,5 @@
     <SourceDirectories>
         <Directory>SE2NoAudioMuteWhenInactive</Directory>
     </SourceDirectories>
-    <Commit>TODO Git commit hash</Commit>
+    <Commit>6ab13d3b17b264ff90426096d2df250ca11b74de</Commit>
 </PluginData>
