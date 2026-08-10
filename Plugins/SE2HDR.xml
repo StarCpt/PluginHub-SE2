@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>F03809A6-80F0-472C-B8FA-5A40FE3AB9DC</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>matelemons/SE2_HDR</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Tonemapping + HDR</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>Matelemons</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Alternative tonemapping curves for all displays, plus HDR10 output for HDR displays.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Replaces SE2's Hable tonemapper with HDR-friendly alternatives (AgX, Uchimura GT).
+        
+If you have an HDR display, it also adds HDR10 output. AgX and Uchimura GT natively support HDR, and an extended Hable curve is also available. 
+In HDR mode, the swapchains are made 10-bit, the Rec.709 colors are transformed to Rec.2020 and encoded with ST.2084 PQ.
+        
+Report issues at https://github.com/matelemons/SE2_HDR/issues </Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>SE2HDR</Directory>
+    </SourceDirectories>
+
+    <!-- The current plugin version's commit hash -->
+    <Commit>dde546d4fb018e081bbd7d3090941d488da4391a</Commit>
+
+</PluginData>
