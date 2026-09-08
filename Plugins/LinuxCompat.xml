@@ -15,8 +15,8 @@
     </SourceDirectories>
 
     <Asset Name="LinuxDependencies"
-           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.31/se2-dependencies.tar.gz"
-           Sha256="cc7c72d118481acb19ce3142503753cd7a9a6d1214f67fce1af85caae8d8764c"
+           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.33/se2-dependencies.tar.gz"
+           Sha256="a38406d52741a0907309e70b11740115cd0dac50f95349d140b6c74f1851386d"
            Extract="true"
            Placement="Bin" />
 
@@ -30,6 +30,6 @@
     <Platforms>Linux</Platforms>
     <Hidden>true</Hidden>
 
-    <Commit>ee291b19f5d2cd8d8b887f4528e83dfd2edb6670</Commit>
+    <Commit>d99ab0a657aa4be1783e0a699ba5ecc3eb9eaae0</Commit>
 
 </PluginData>
