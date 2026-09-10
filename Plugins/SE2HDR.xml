@@ -30,6 +30,6 @@ Report issues at https://github.com/matelemons/SE2_HDR/issues </Description>
     </SourceDirectories>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>dde546d4fb018e081bbd7d3090941d488da4391a</Commit>
+    <Commit>735c7772e3857b1c3b1586041161c02485d021cb</Commit>
 
 </PluginData>
