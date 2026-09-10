@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>FE4B5355-3CA3-41CD-B7DE-4DA5AB1B5228</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>viktor-ferenczi/se2-aurora</RepoId>
+
+    <!-- The name of your plugin that will appear in the plugin list -->
+    <FriendlyName>Aurora Borealis</FriendlyName>
+
+    <!-- The author name that you want to appear in the plugin list -->
+    <Author>Viktor</Author>
+
+    <!-- Optional tooltip for the plugin in the plugin list -->
+    <Tooltip>Aurora Borealis (Northern Lights) over the magnetic poles of planets with an atmosphere.</Tooltip>
+
+    <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
+    <Description>Renders volumetric Aurora Borealis (Northern Lights)
+over the poles of planets which have an atmosphere.
+
+Open the plugin's Settings for the configuration.
+
+Original algorithm:
+
+https://blog.roytheunissen.com/2022/09/17/aurora-borealis-a-breakdown/
+https://github.com/RoyTheunissen/Aurora-Borealis-Unity
+
+For support please join the Pulsar Discord: https://discord.gg/z8ZczP2YZY
+Please consider supporting my work on Patreon: https://www.patreon.com/semods
+    </Description>
+
+    <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- The HLSL shader source is copied onto disk, because the game's shader compiler loads
+         shaders from files. Needed when Pulsar builds the plugin from source. The reserved
+         asset name "AssetFolder" is what makes Pulsar call the plugin's LoadAssets(string). -->
+    <Asset Name="AssetFolder" Path="ClientPlugin/Shaders" />
+
+    <Commit>0a728b0195b0b7b587827b3ef96619837cff1571</Commit>
+
+</PluginData>
