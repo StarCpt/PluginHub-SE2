@@ -33,7 +33,7 @@ Requires Windows HDR enabled and a supported display; can be force-enabled on SD
     </SourceDirectories>
 
     <!-- Shader assets copied onto disk and exposed to the plugin via LoadAssets(assetFolder). -->
-    <AssetFolder>ClientPlugin/Assets/</AssetFolder>
+    <Asset Name="AssetFolder" Path="ClientPlugin/Assets/" />
 
     <!-- The current plugin version's commit hash -->
     <Commit>2bfd6c5d2e3ac877cddebb6c2fff28b07763dcd2</Commit>
