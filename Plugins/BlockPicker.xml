@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>87E889A0-2E4A-4899-8BF4-3752BFBE1064</Id>
+    <RepoId>NorthyPark/SE2BlockPickerPlugin</RepoId>
+    <FriendlyName>Block Picker</FriendlyName>
+    <Author>NorthyPark</Author>
+    <Tooltip>Aim at a block and press Ctrl+G to pick it.</Tooltip>
+    <Description>Block Picker
+
+Hold any block, aim at a block (built or projected) and press the keybind (default: Ctrl+G) to pick it.
+The block is selected on your build bar (added to a free slot if needed), and its paint color can be picked too.
+Respects survival progression. Everything is configurable in the plugin settings.</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Hidden>false</Hidden>
+    <Commit>40f0c512e1130bfbe54fb59255d3edc17589995a</Commit>
+</PluginData>
