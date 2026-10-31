@@ -11,5 +11,5 @@
     <Directory>ClientPlugin</Directory>
     <Directory>src/RSSG.Core</Directory>
   </SourceDirectories>
-  <Commit>0228424bcc4385afbd9084c03b1d05862c036d9c</Commit>
+  <Commit>9e31a76b965e01c7323738938db6417deafed741</Commit>
 </PluginData>
