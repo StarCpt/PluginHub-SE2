@@ -4,12 +4,12 @@
   <RepoId>FallenOchita/SE2-Random-Star-System-Generator</RepoId>
   <FriendlyName>Random Star System Generator</FriendlyName>
   <Author>FallenOchita</Author>
-  <Tooltip>Procedural star-system generation for Space Engineers 2, with configurable planets, moons, asteroid belts, and orbital ranges.</Tooltip>
-  <Description>Generates deterministic star-system previews with configurable star, planet, moon, and asteroid-belt data. Actual world creation and multiplayer synchronization are not yet implemented.</Description>
+  <Tooltip>Preview-only star-system designer for Space Engineers 2. Configure stars, planets, moons, belts, and orbital ranges.</Tooltip>
+  <Description>Configure deterministic star-system previews in an in-game settings screen, including planet, moon, asteroid-belt, and orbital options. This preview-only plugin does not create live worlds, spawn planets, or synchronize generated systems in multiplayer.</Description>
   <Hidden>false</Hidden>
   <SourceDirectories>
     <Directory>ClientPlugin</Directory>
     <Directory>src/RSSG.Core</Directory>
   </SourceDirectories>
-  <Commit>cb0f0b3d5fb4412d5a07454e476b66905794a513</Commit>
+  <Commit>0228424bcc4385afbd9084c03b1d05862c036d9c</Commit>
 </PluginData>
