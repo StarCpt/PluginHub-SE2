@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>0E950E11-3E46-4034-9DB0-4FE7BF95066D</Id>
+    <RepoId>CometWorks/repair-paste2</RepoId>
+
+    <FriendlyName>Repair Paste</FriendlyName>
+    <Author>Viktor</Author>
+
+    <Tooltip>Paste blueprints over existing blocks to re-place the destroyed ones</Tooltip>
+    <Description>
+        Lets the paste tool place a blueprint over the ship it was made from. Blocks already there are kept as they are, only the missing ones are placed. Use it to repair a damaged ship from its blueprint or from a copy made before the damage.
+
+        Load the blueprint into the paste tool and aim at the damaged ship: the preview snaps onto it where the blueprint matches the ship, in any rotation. Place it to rebuild the missing blocks. A blueprint which does not match the ship is refused as usual.
+
+        Works on any server: only the missing blocks are sent, and the server checks them as usual. Sub-grids (rotor and piston tops) are not placed by a repair paste.
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <Commit>422e6242cdee8f83d4c2c8179cc958b041438b7d</Commit>
+
+</PluginData>
