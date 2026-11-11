@@ -13,22 +13,17 @@
 
     <Tooltip>Unload docks, name-tag cargo sorting ([Ore], [Parts P1], [Si] ...), status LCDs and automatic weapon ammo.</Tooltip>
 
-    <Description>Automatic cargo handling for Space Engineers 2. Everything works by renaming blocks.
+    <Description>Automatic cargo handling. Everything works by renaming blocks.
 
-Unload docks: name a connector [Unload] and docked ships drop their ore and ice ([Unload All] for everything).
-Sorting: name containers [Ore], [Ice], [Parts], [Ammo], [Tools], [Consumables], [Player], [Cells], [Misc], with priority like [Ore P1]. Single items: [Si], [Iron Ore], [Steel Plate].
-Production output is collected from smelters, refineries, assemblers, fabricators and Gearforges.
-LCD screens: [Cargo], [Ore], [Parts], [Power], [Power Sources], [Power Consumers], [Damage], [Turrets], [Alerts].
-Power and gas planning: what everything uses at full load and what to build when you are short.
-Weapon ammo: a Gearforge named [Make Ammo] keeps ammo for all turrets, guns and rocket launchers in stock.
-Alerts: full storage and tagged blocks without a conveyor link.
+Unload docks: a connector named [Unload] takes ore and ice from docked ships, [Unload All] takes everything.
+Sorting: [Ore], [Ice], [Parts], [Ammo], [Tools], [Consumables], [Player], [Cells], [Misc], priority like [Ore P1], single items like [Si] or [Steel Plate]. Production output is collected.
+LCDs: [Cargo], [Ore], [Parts], [Power], [Damage], [Turrets], [Alerts], with full-load power and gas planning.
+Ammo: a Gearforge named [Make Ammo] keeps ammo for all weapons in stock.
 
-Items only move through conveyors. Turrets, reactors, production inputs and unknown blocks are never emptied.
-Single player (multiplayer not tested yet). Don't combine with other sorting plugins.
+Items only move through conveyors. Single player (multiplayer not tested yet).
 
 Manual: https://github.com/lwolf1965/LW-Cargo-Manager/blob/main/Docs/UserManual.md
-Bugs and ideas: https://github.com/lwolf1965/LW-Cargo-Manager/issues
-    </Description>
+Bugs and ideas: https://github.com/lwolf1965/LW-Cargo-Manager/issues</Description>
 
     <!-- Only source code in these folders is compiled by Pulsar. tests/ is excluded on purpose. -->
     <SourceDirectories>
