@@ -33,7 +33,7 @@ Bugs and ideas: https://github.com/lwolf1965/LW-Cargo-Manager/issues</Descriptio
     <!-- Shown in the Pulsar plugin list -->
     <Hidden>false</Hidden>
 
-    <!-- The current plugin version's commit hash (0.1.1.0) -->
-    <Commit>bc0325f5cfb7a46081e2de15c9cd000654958fb1</Commit>
+    <!-- The current plugin version's commit hash (0.1.1.1) -->
+    <Commit>d1459ffe91cfe90edc86a30b3d053617bcc99fbe</Commit>
 
 </PluginData>
