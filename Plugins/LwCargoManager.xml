@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>A629061B-601E-4566-B796-11E8ACED893F</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>lwolf1965/LW-Cargo-Manager</RepoId>
+
+    <FriendlyName>LW Cargo Manager</FriendlyName>
+
+    <Author>LoneWolf2K</Author>
+
+    <Tooltip>Unload docks, name-tag cargo sorting ([Ore], [Parts P1], [Si] ...), status LCDs and automatic weapon ammo.</Tooltip>
+
+    <Description>Automatic cargo handling for Space Engineers 2. Everything works by renaming blocks.
+
+Unload docks: name a connector [Unload] and docked ships drop their ore and ice ([Unload All] for everything).
+Sorting: name containers [Ore], [Ice], [Parts], [Ammo], [Tools], [Consumables], [Player], [Cells], [Misc], with priority like [Ore P1]. Single items: [Si], [Iron Ore], [Steel Plate].
+Production output is collected from smelters, refineries, assemblers, fabricators and Gearforges.
+LCD screens: [Cargo], [Ore], [Parts], [Power], [Power Sources], [Power Consumers], [Damage], [Turrets], [Alerts].
+Power and gas planning: what everything uses at full load and what to build when you are short.
+Weapon ammo: a Gearforge named [Make Ammo] keeps ammo for all turrets, guns and rocket launchers in stock.
+Alerts: full storage and tagged blocks without a conveyor link.
+
+Items only move through conveyors. Turrets, reactors, production inputs and unknown blocks are never emptied.
+Single player (multiplayer not tested yet). Don't combine with other sorting plugins.
+
+Manual: https://github.com/lwolf1965/LW-Cargo-Manager/blob/main/Docs/UserManual.md
+Bugs and ideas: https://github.com/lwolf1965/LW-Cargo-Manager/issues
+    </Description>
+
+    <!-- Only source code in these folders is compiled by Pulsar. tests/ is excluded on purpose. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- Shown in the Pulsar plugin list -->
+    <Hidden>false</Hidden>
+
+    <!-- The current plugin version's commit hash (0.1.0.1) -->
+    <Commit>1e063a0e8342d0df48d3f620b39b3210c615e546</Commit>
+
+</PluginData>
