@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>A629061B-601E-4566-B796-11E8ACED893F</Id>
+
+    <!-- GitHub repository ID -->
+    <RepoId>lwolf1965/LW-Cargo-Manager</RepoId>
+
+    <FriendlyName>LW Cargo Manager</FriendlyName>
+
+    <Author>LoneWolf2K</Author>
+
+    <Tooltip>Unload docks, name-tag cargo sorting ([Ore], [Parts P1], [Si] ...), status LCDs and automatic weapon ammo.</Tooltip>
+
+    <Description>Automatic cargo handling. Everything works by renaming blocks.
+
+Unload docks: a connector named [Unload] takes ore and ice from docked ships, [Unload All] takes everything.
+Sorting: [Ore], [Ice], [Parts], [Ammo], [Tools], [Consumables], [Player], [Cells], [Misc], priority like [Ore P1], single items like [Si] or [Steel Plate]. Production output is collected.
+LCDs: [Cargo], [Ore], [Parts], [Power], [Damage], [Turrets], [Alerts], with full-load power and gas planning.
+Ammo: a Gearforge named [Make Ammo] keeps ammo for all weapons in stock.
+
+Items only move through conveyors. Single player (multiplayer not tested yet).
+
+Manual: https://github.com/lwolf1965/LW-Cargo-Manager/blob/main/Docs/UserManual.md
+Bugs and ideas: https://github.com/lwolf1965/LW-Cargo-Manager/issues</Description>
+
+    <!-- Only source code in these folders is compiled by Pulsar. tests/ is excluded on purpose. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- Shown in the Pulsar plugin list -->
+    <Hidden>false</Hidden>
+
+    <!-- The current plugin version's commit hash (0.1.1.2) -->
+    <Commit>6d7f0c924d336d7726012ff13b3e93c85f0162db</Commit>
+
+</PluginData>
