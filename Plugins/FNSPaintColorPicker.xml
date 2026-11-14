@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>388A67C9-39C9-4A5E-9F7E-8B18E879E619</Id>
+  <RepoId>Farvane/FNS-Paint-Color-Picker</RepoId>
+  <FriendlyName>[FNS] GRIDWORX - Paint Gun Color Picker</FriendlyName>
+  <Author>Farvane Naval Systems</Author>
+  <Tooltip>Type hex colour codes into your paint gun palette.</Tooltip>
+  <Description>Adds a settings screen where you type #RRGGBB values into your paint gun palette slots, previews the colour the game will store, and keeps named presets for reuse across worlds. Uses the game's own palette update, so it changes only your own palette.</Description>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
+  <Runtimes>CoreCLR</Runtimes>
+  <Platforms>Windows</Platforms>
+  <Commit>75b351a6fc5b81935f0289af671d9ff1251e98a6</Commit>
+</PluginData>
