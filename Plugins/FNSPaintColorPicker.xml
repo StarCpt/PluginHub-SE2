@@ -12,5 +12,5 @@
   </SourceDirectories>
   <Runtimes>CoreCLR</Runtimes>
   <Platforms>Windows</Platforms>
-  <Commit>479aea6e7c4921081c46def6cbc0d2ac79b470d5</Commit>
+  <Commit>0520a44ac25d7d4a23a75724d1b1098cd4bad4c1</Commit>
 </PluginData>
