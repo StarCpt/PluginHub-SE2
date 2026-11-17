@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>96141ACB-2E88-475F-9929-F3B2B9F3861E</Id>
+    <RepoId>lwolf1965/LW-Build-Planner</RepoId>
+    <FriendlyName>LW Build Planner</FriendlyName>
+    <Author>LoneWolf2K</Author>
+    <Tooltip>Pick blocks, see the missing components against your storage and order them in one go.</Tooltip>
+    <Description>Plan a build and order its parts. Pick blocks in the G menu, see which components you are missing against your storage, check for ore deficits, broken conveyor links and cargo space, then order the rest from your crafters in batches. The planner window shows the progress of every ordered part. Select a block in the G menu and press + to add it (Shift and Ctrl for bigger steps); Ctrl+N opens the planner window. The keys need Windows; elsewhere use the config button here. Early test build: the build list and orders are forgotten when you leave the world.</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <!-- Shown in the Pulsar plugin list -->
+    <Hidden>false</Hidden>
+    <!-- Placeholder: replace with the full commit hash after the first git push (0.1.0.1) -->
+    <Commit>9e265ae5ed202aba6473002635ebcc8a31a825b2</Commit>
+</PluginData>
