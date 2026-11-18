@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>96141ACB-2E88-475F-9929-F3B2B9F3861E</Id>
+    <RepoId>lwolf1965/LW-Build-Planner</RepoId>
+    <FriendlyName>LW Build Planner</FriendlyName>
+    <Author>LoneWolf2K</Author>
+    <Tooltip>Pick blocks, see the missing components against your storage and order them in one go.</Tooltip>
+    <Description>Plan a build and order its parts. Pick blocks in the G menu, see which components you are missing against your storage, check for ore deficits, broken conveyor links and cargo space, then order the rest from your crafters in batches. The planner window shows the progress of every ordered part. Select a block in the G menu and press + to add it (Shift and Ctrl for bigger steps); Ctrl+N opens the planner window anywhere in a world. The + key needs Windows; Ctrl+N and the config button here work everywhere. Texts follow the game's language (13 languages). Early test build: the build list is kept per world; orders are not kept across a restart.</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Hidden>false</Hidden>
+    <Commit>5b8129e28951bc30012305af4fbb052b59109470</Commit>
+</PluginData>
