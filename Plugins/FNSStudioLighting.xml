@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>87B291EA-6942-4BF6-9E5E-7B56E013A292</Id>
+  <RepoId>Farvane/FNS-Studio-Lighting</RepoId>
+  <FriendlyName>[FNS] GRIDWORX - Studio Lighting</FriendlyName>
+  <Author>Farvane Naval Systems</Author>
+  <Tooltip>Neutral CAD-like lighting for the FNS Design Range.</Tooltip>
+  <Description>Applies a toggleable, local-client studio profile while the FNS Design Range skybox is active. Reduces directional lighting, adds neutral ambient fill, disables harsh directional shadows and bloom, and keeps exposure stable for inspecting spacecraft geometry and hull colors.</Description>
+  <SourceDirectories>
+    <Directory>ClientPlugin</Directory>
+  </SourceDirectories>
+  <Runtimes>CoreCLR</Runtimes>
+  <Platforms>Windows</Platforms>
+  <Commit>b772b5f340951812a11d41a89386e57cd4e4dbca</Commit>
+</PluginData>
