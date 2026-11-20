@@ -10,5 +10,5 @@
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
     <Hidden>false</Hidden>
-    <Commit>bc9e1e840694f9083cf52df488ea9fce40df3b3c</Commit>
+    <Commit>f648785fce4817e9e746eb68a0010387c58a220a</Commit>
 </PluginData>
