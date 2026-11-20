@@ -5,10 +5,10 @@
     <FriendlyName>LW Build Planner</FriendlyName>
     <Author>LoneWolf2K</Author>
     <Tooltip>Pick blocks, see the missing components against your storage and order them in one go.</Tooltip>
-    <Description>Plan a build and order its parts. Pick blocks in the G menu, see which components you are missing against your storage, check for ore deficits, broken conveyor links and cargo space, then order the rest from your crafters in batches. The planner window shows the progress of every ordered part. Select a block in the G menu and press + to add it (Shift and Ctrl for bigger steps); Ctrl+N opens the planner window anywhere in a world. The + key needs Windows; Ctrl+N and the config button here work everywhere. Texts follow the game's language (13 languages). Early test build: the build list is kept per world; orders are not kept across a restart.</Description>
+    <Description>Plan a build and order its parts. Pick blocks in the G menu, or load a blueprint, and see which components you are missing against your storage. The planner checks ore deficits, broken conveyor links and cargo space, then orders the rest from your crafters in batches, whole blocks only, smallest first. A blueprint is all or nothing: if ore is short, Order what fits orders the blocks that fit. The planner window shows the progress of every part, and orders survive save and load. Add a block in the G menu with + (Shift and Ctrl for bigger steps); Ctrl+N opens the planner anywhere in a world. Put [NoMake] in a crafter's name to keep it for yourself. The + key needs Windows; Ctrl+N and the config button work everywhere. Texts follow the game's language (13 languages). Single player only. Early test build.</Description>
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
     <Hidden>false</Hidden>
-    <Commit>f648785fce4817e9e746eb68a0010387c58a220a</Commit>
+    <Commit>bc9e1e840694f9083cf52df488ea9fce40df3b3c</Commit>
 </PluginData>
