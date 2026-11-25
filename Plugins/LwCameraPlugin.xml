@@ -16,7 +16,7 @@
     <Description>A dock camera, until SE2 gets a camera block.
 
 In the cockpit press Alt+Home to look out of a connector of your ship. The view is fixed on what is in front of the connector, and W A S D C Space and the mouse work in the camera's directions. Alt+PageDown / Alt+PageUp switch connectors, the mouse wheel zooms (80° to 6°).
-Optional: [CAM] in a connector's name names its camera, [CAM 2] moves it 2 m out.
+Optional: [CAM] in a connector's name names its camera.
 Take control of a turret and the view moves to its barrel: the mouse aims, the wheel zooms, the turret's angle limits apply.
 
 Other blocks are not cameras in this version.
@@ -34,6 +34,6 @@ Bugs and ideas: https://github.com/lwolf1965/LW-Camera-Plugin/issues</Descriptio
     <Hidden>false</Hidden>
 
     <!-- Commit hash of the released version (full 40 characters) -->
-    <Commit>9f97feb0d19b9d4fafe8e93355222d0045a8165e</Commit>
+    <Commit>9c0e3bcda4e88345347adf0f6f93bb3c6d76cb20</Commit>
 
 </PluginData>
