@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <!-- The ID of your plugin, never change this -->
+    <Id>7F839102-16E6-457A-A9E6-76718E7F9702</Id>
+
+    <!-- GitHub repository ID (create the repository first) -->
+    <RepoId>lwolf1965/LW-Camera-Plugin</RepoId>
+
+    <FriendlyName>LW Camera Plugin</FriendlyName>
+
+    <Author>LoneWolf2K</Author>
+
+    <Tooltip>Dock camera at your connectors and a barrel view for turrets, with mouse-wheel zoom.</Tooltip>
+
+    <Description>A dock camera, until SE2 gets a camera block.
+
+In the cockpit press Alt+Home to look out of a connector of your ship. The view is fixed on what is in front of the connector, and W A S D C Space and the mouse work in the camera's directions. Alt+PageDown / Alt+PageUp switch connectors, the mouse wheel zooms (80° to 6°).
+Optional: [CAM] in a connector's name names its camera.
+Take control of a turret and the view moves to its barrel: the mouse aims, the wheel zooms, the turret's angle limits apply.
+
+Other blocks are not cameras in this version.
+Client side only, changes nothing in the world.
+
+Manual: https://github.com/lwolf1965/LW-Camera-Plugin/blob/main/Docs/UserManual.md
+Bugs and ideas: https://github.com/lwolf1965/LW-Camera-Plugin/issues</Description>
+
+    <!-- Only source code in these folders is compiled by Pulsar. tests/ is excluded on purpose. -->
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+
+    <!-- Shown in the Pulsar plugin list -->
+    <Hidden>false</Hidden>
+
+    <!-- Commit hash of the released version (full 40 characters) -->
+    <Commit>9c0e3bcda4e88345347adf0f6f93bb3c6d76cb20</Commit>
+
+</PluginData>
