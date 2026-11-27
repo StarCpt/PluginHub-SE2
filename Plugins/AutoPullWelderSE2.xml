@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://w3.org" xmlns:xsi="http://w3.org-instance" xsi:type="GitHubPlugin">
+    <Id>7E3C9A14-5B82-4D91-A6F0-82C41E9B3D75</Id>
+    <RepoId>rj270387-maker/AutoPullWelderSE2</RepoId>
+    <FriendlyName>AutoPullWelder &amp; Blueprint Checker</FriendlyName>
+    <Author>RJohn</Author>
+    <Tooltip>Auto-pulls missing components while welding and checks blueprint materials against storage.</Tooltip>
+    <Description>Automatically pulls missing components from connected base containers directly into your inventory while welding blocks and projections. Also adds an adaptive Blueprint Material Checker card on the Blueprint Details screen (G -&gt; Blueprints -&gt; Details) that calculates required components, compares them against your storage, and highlights missing items. Supports English and Russian automatically.</Description>
+    <SourceDirectories>
+        <Directory>.</Directory>
+    </SourceDirectories>
+    <Hidden>false</Hidden>
+    <Commit>f3bd506cee167139b23d4e40687673433549630a</Commit>
+</PluginData>
