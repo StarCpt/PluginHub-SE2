@@ -5,7 +5,7 @@
     <Id>109CBF17-F8C8-49C6-AC39-8EA58910A631</Id>
 
     <!-- GitHub repository ID -->
-    <RepoId>lolifamily/HdrRender2</RepoId>
+    <RepoId>lolimoddings/HdrRender2</RepoId>
 
     <!-- The name of your plugin that will appear in the plugin list -->
     <FriendlyName>HDR Render 2</FriendlyName>
@@ -17,25 +17,25 @@
     <Tooltip>True HDR output: fp16 scRGB swapchain, BT.2390 tonemapping, separate UI brightness, emissive particle boost, EXR screenshots</Tooltip>
 
     <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
-    <Description>Adds a true HDR output path to Space Engineers 2 (DX12).
-The swapchain becomes flip-model R16G16B16A16_Float with scRGB color space.
-A BT.2390 display mapping (PQ space) replaces the engine's SDR tonemapping: the original shadows and midtones sit at a configurable scene paper white, highlights extend up to the display peak.
+    <Description>Adds a true HDR output path to Space Engineers 2 (DX12): an FP16 scRGB swapchain.
+A BT.2390 display mapping (PQ space) replaces the engine's SDR tonemapping: the original shadows and midtones sit at a configurable scene paper white, highlights extend up to the display peak (set Peak brightness to yours).
 The UI is composited from its own layer at its own brightness, so SDR menus and HUD read correctly on an HDR display.
 Emissive GPU particles (thrusters, lasers, muzzle flashes, explosions) can be boosted with live preview; smoke and dust are untouched.
 Screenshots are also exported as OpenEXR (HDR) beside the game's normal SDR image.
-Use FSR for anti-aliasing in HDR; FXAA only reaches the SDR copy used for thumbnails.
-Rec.709 primaries, hue-preserving mapping; no wide-gamut remap.
+Use FSR or DLSS for anti-aliasing in HDR; FXAA only reaches the SDR copy used for thumbnails.
+Rec.709 primaries, hue-preserving mapping; optional P3 gamut expansion.
 Auto-disables itself if it crashes during init, with a config flag to re-enable.
-Requires Windows HDR enabled and a supported display; can be force-enabled on SDR displays.</Description>
+Requires Windows HDR on the primary display; can be force-enabled for another display or an SDR one.</Description>
 
     <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
     <SourceDirectories>
         <Directory>ClientPlugin</Directory>
     </SourceDirectories>
 
-    <!-- Assets are resolved to local paths by Name; the one named AssetFolder is passed to LoadAssets(string). -->
+    <!-- To specify asset files to be copied onto disk, use an Asset tag named AssetFolder. Path is relative to the repository root.
+         Assets are resolved to local paths by Name; the one named AssetFolder is passed to LoadAssets(string). -->
     <Asset Name="AssetFolder" Path="ClientPlugin/Assets/" />
 
     <!-- The current plugin version's commit hash -->
-    <Commit>293e268e4d933379f6b3ef2c28a8c88c8d232870</Commit>
+    <Commit>3738cda3cef963bb63ddd5bd9e649e07ff5ab6d3</Commit>
 </PluginData>
