@@ -3,7 +3,7 @@
 
     <Id>24B77A03-E6BD-4849-809F-4E73CEB99B1A</Id>
 
-    <RepoId>lolifamily/se-mcp</RepoId>
+    <RepoId>lolimoddings/se-mcp</RepoId>
 
     <FriendlyName>SeMcp2</FriendlyName>
 
@@ -36,6 +36,6 @@ Transport: MCP Streamable HTTP (not SSE). POST JSON-RPC to http://localhost:6789
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="5.3.0" />
     </NuGetReferences>
 
-    <Commit>74d93120d8b91cedf3214ba84cc0cc3e8e0e99db</Commit>
+    <Commit>a7200284481ad4f8083ad99b314ac2094809ac2e</Commit>
 
 </PluginData>
