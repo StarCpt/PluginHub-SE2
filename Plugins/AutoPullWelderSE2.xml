@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
  <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
-    <Id>7E3C9A14-5B82-4D91-A6F0-82C41E9B3D75</Id>
+    <Id>7cf59d238f284cf65e37fd97851c920669bc820f</Id>
     <RepoId>rj270387-maker/AutoPullWelderSE2</RepoId>
     <FriendlyName>AutoPullWelder &amp; Blueprint Checker</FriendlyName>
     <Author>RJohn</Author>
